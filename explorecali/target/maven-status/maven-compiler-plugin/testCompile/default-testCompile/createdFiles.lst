@@ -1,0 +1,16 @@
+com\example\ec\web\UserControllerTest.class
+com\example\ec\repo\UserRepositoryTest.class
+com\example\ec\web\TourRatingControllerTest.class
+com\example\ec\service\TourRatingServiceTest.class
+com\example\ec\domain\RegionTest.class
+com\example\ec\ExplorecaliApplicationTests.class
+com\example\ec\web\RatingDtoTest.class
+com\example\ec\domain\TourTest.class
+com\example\ec\web\RatingControllerTest.class
+com\example\ec\domain\TourRatingTest.class
+com\example\ec\web\LoginDtoTest.class
+com\example\ec\domain\TourPackageTest.class
+com\example\ec\service\UserServiceIntegrationTest.class
+com\example\ec\web\RatingAssemblerTest.class
+com\example\ec\web\RatingControllerTest$1.class
+com\example\ec\domain\RegionConverterTest.class
