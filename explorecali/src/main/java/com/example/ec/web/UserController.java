@@ -1,17 +1,24 @@
 package com.example.ec.web;
 
 import com.example.ec.domain.User;
+import com.example.ec.repo.UserRepository;
+import com.example.ec.security.ExploreCaliUserDetailsService;
+import com.example.ec.security.JwtProvider;
 import com.example.ec.service.UserService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.prepost.PreAuthorize;
-import org.springframework.security.core.Authentication;
+import org.springframework.security.authentication.AuthenticationManager;
+import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 @RestController
 @RequestMapping("/users")
@@ -21,9 +28,33 @@ public class UserController {
     @Autowired
     private UserService userService;
 
+    @Autowired
+    AuthenticationManager authenticationManager;
+
+    @Autowired
+    JwtProvider jwtTokenProvider;
+
+    @Autowired
+    UserRepository users;
+
+    @Autowired
+    private ExploreCaliUserDetailsService myUserService;
+
+//    @PostMapping("/signin")
+//    public Authentication login(@RequestBody @Valid LoginDto loginDto) {
+//       return userService.signin(loginDto.getUsername(), loginDto.getPassword()) ;
+//    }
+
+    @SuppressWarnings("rawtypes")
     @PostMapping("/signin")
-    public Authentication login(@RequestBody @Valid LoginDto loginDto) {
-       return userService.signin(loginDto.getUsername(), loginDto.getPassword()) ;
+    public ResponseEntity login(@RequestBody @Valid LoginDto loginDto) {
+        String username = loginDto.getUsername();
+        authenticationManager.authenticate(new UsernamePasswordAuthenticationToken(username, loginDto.getPassword()));
+        String token = jwtTokenProvider.createToken(username, this.users.findByUsername(username).getRoles());
+        Map<Object, Object> model = new HashMap<>();
+        model.put("username", username);
+        model.put("token", token);
+        return ResponseEntity.ok(model);
     }
 
     @PostMapping("/signup")

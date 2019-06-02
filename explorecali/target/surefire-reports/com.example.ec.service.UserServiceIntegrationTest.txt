@@ -1,4 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: com.example.ec.service.UserServiceIntegrationTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.504 s - in com.example.ec.service.UserServiceIntegrationTest
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.292 s <<< FAILURE! - in com.example.ec.service.UserServiceIntegrationTest
+signup(com.example.ec.service.UserServiceIntegrationTest)  Time elapsed: 0.013 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.example.ec.service.UserServiceIntegrationTest.signup(UserServiceIntegrationTest.java:25)
+

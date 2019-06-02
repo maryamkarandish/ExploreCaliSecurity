@@ -2,6 +2,7 @@ com\example\ec\web\UserControllerTest.class
 com\example\ec\repo\UserRepositoryTest.class
 com\example\ec\web\TourRatingControllerTest.class
 com\example\ec\service\TourRatingServiceTest.class
+com\example\ec\web\JwtRequestHelper.class
 com\example\ec\domain\RegionTest.class
 com\example\ec\ExplorecaliApplicationTests.class
 com\example\ec\web\RatingDtoTest.class

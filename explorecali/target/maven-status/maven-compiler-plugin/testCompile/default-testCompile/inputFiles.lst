@@ -11,5 +11,6 @@ D:\exercise\ExploreCaliSecurity\explorecali\src\test\java\com\example\ec\web\Rat
 D:\exercise\ExploreCaliSecurity\explorecali\src\test\java\com\example\ec\domain\RegionConverterTest.java
 D:\exercise\ExploreCaliSecurity\explorecali\src\test\java\com\example\ec\domain\TourTest.java
 D:\exercise\ExploreCaliSecurity\explorecali\src\test\java\com\example\ec\web\UserControllerTest.java
+D:\exercise\ExploreCaliSecurity\explorecali\src\test\java\com\example\ec\web\JwtRequestHelper.java
 D:\exercise\ExploreCaliSecurity\explorecali\src\test\java\com\example\ec\web\RatingAssemblerTest.java
 D:\exercise\ExploreCaliSecurity\explorecali\src\test\java\com\example\ec\repo\UserRepositoryTest.java

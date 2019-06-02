@@ -1,4 +1,6 @@
+com\example\ec\security\ExploreCaliUserDetailsService.class
 com\example\ec\domain\Difficulty.class
+com\example\ec\security\JwtConfigurer.class
 com\example\ec\repo\UserRepository.class
 com\example\ec\web\LoginDto.class
 com\example\ec\repo\RoleRepository.class
@@ -7,6 +9,7 @@ com\example\ec\domain\Role.class
 com\example\ec\domain\User.class
 com\example\ec\web\RatingDto.class
 com\example\ec\web\RatingAssembler.class
+com\example\ec\security\JwtProvider.class
 com\example\ec\domain\Region.class
 com\example\ec\domain\Tour.class
 com\example\ec\domain\TourPackage.class
@@ -14,6 +17,7 @@ com\example\ec\ExplorecaliApplication.class
 com\example\ec\web\TourRatingController.class
 com\example\ec\repo\TourPackageRepository.class
 com\example\ec\web\RatingController.class
+com\example\ec\security\JwtTokenFilter.class
 com\example\ec\service\UserService.class
 com\example\ec\repo\TourRepository.class
 com\example\ec\web\UserController.class
