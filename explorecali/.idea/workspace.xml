@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c5dfc7ac-db59-4532-be4e-bbed4e9ccefd" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/example/ec/security/WebSecurityConfiguration.java" afterPath="$PROJECT_DIR$/src/main/java/com/example/ec/security/WebSecurityConfiguration.java" />
-    </list>
+    <list default="true" id="c5dfc7ac-db59-4532-be4e-bbed4e9ccefd" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,23 +22,27 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="WebSecurityConfiguration.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="WebSecurityConfiguration.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/ec/security/WebSecurityConfiguration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="32" column="32" lean-forward="false" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
+            <state relative-caret-position="452">
+              <caret line="40" column="54" lean-forward="true" selection-start-line="40" selection-start-column="54" selection-end-line="40" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#3102#3103#0" expanded="true" />
+                <element signature="e#3154#3155#0" expanded="true" />
+                <element signature="e#3439#3440#0" expanded="true" />
+                <element signature="e#3497#3498#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TourRatingControllerTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TourRatingControllerTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/example/ec/web/TourRatingControllerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="158" column="7" lean-forward="false" selection-start-line="158" selection-start-column="7" selection-end-line="158" selection-end-column="7" />
+            <state relative-caret-position="194">
+              <caret line="160" column="29" lean-forward="true" selection-start-line="160" selection-start-column="29" selection-end-line="160" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -197,9 +199,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/example/ec/service/UserService.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/example/ec/repo/UserRepositoryTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/ec/security/JwtProvider.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/ec/security/WebSecurityConfiguration.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/ec/web/UserController.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/example/ec/web/TourRatingControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/ec/security/WebSecurityConfiguration.java" />
       </list>
     </option>
   </component>
@@ -1070,7 +1072,7 @@
       <workItem from="1559105706974" duration="5892000" />
       <workItem from="1559198635966" duration="113000" />
       <workItem from="1559199191482" duration="3444000" />
-      <workItem from="1559361444026" duration="29847000" />
+      <workItem from="1559361444026" duration="30922000" />
     </task>
     <servers />
   </component>
@@ -1098,7 +1100,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53016000" />
+    <option name="totallyTimeSpent" value="54091000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1544,16 +1546,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/ec/security/WebSecurityConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="32" column="32" lean-forward="false" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/ec/web/TourRatingController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-884">
@@ -1588,9 +1580,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/example/ec/web/TourRatingControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="158" column="7" lean-forward="false" selection-start-line="158" selection-start-column="7" selection-end-line="158" selection-end-column="7" />
+        <state relative-caret-position="194">
+          <caret line="160" column="29" lean-forward="true" selection-start-line="160" selection-start-column="29" selection-end-line="160" selection-end-column="29" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/ec/security/WebSecurityConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="452">
+          <caret line="40" column="54" lean-forward="true" selection-start-line="40" selection-start-column="54" selection-end-line="40" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3102#3103#0" expanded="true" />
+            <element signature="e#3154#3155#0" expanded="true" />
+            <element signature="e#3439#3440#0" expanded="true" />
+            <element signature="e#3497#3498#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
